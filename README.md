@@ -8,6 +8,10 @@ This repository defines a small scheduling environment for unrelated parallel ma
 - Machine: a processing resource that holds assigned jobs, setup/processing times, and availability.
 - Instance: a container that bundles jobs/machines with their processing and setup time matrices.
 
+All source codes for the implemented algorithms are provided in `Algorithms.zip`.  
+The best-performing solutions for each problem instance are recorded in `Best_Solutions_EO`, with separate tabs corresponding to different problem sizes.  
+In addition, the training data used for fine-tuning can be found in `training.jsonl`.
+
 Because Python objects aren’t JSON-serializable by default, the code also shows how to convert these classes to plain dictionaries and then to JSON.
 
 Features
